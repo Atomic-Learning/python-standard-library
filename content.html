@@ -4,10 +4,12 @@
 
 <h2>Importing from the Standard Library</h2>
 
-<p>To use a module from the Standard Library, you simply need to import it using the <code>import</code> statement. For example, to use the <code>math</code> module, which provides mathematical functions and constants, you would write:</p>
+<p>To use a module from the Standard Library, you need to import it using the <code>import</code> statement. For example, to use the <code>math</code> module, which provides mathematical functions and constants, you would write:</p>
 
 <py-cell>import math</py-cell>
 
 <p>You can then use the functions and constants provided by the <code>math</code> module, such as <code>math.pi</code>, which is a variable which gives the value of $\pi$</p>
 
 <py-cell>print(math.pi)</py-cell>
+
+In order for the above cell to work, you need to run the first cell containing the import statement first. If you try to run the second cell without running the first cell, you will get an error saying that <code>math</code> is not defined. This is because we need to import from the Standard Library before we can use it. Try reloading the page and running the second cell first to see this error for yourself.
