@@ -1,21 +1,16 @@
 {
-    "title": "",
-    "slug": "",
+    "title": "Python: The Python Standard Library",
+    "slug": "python-standard-library",
     "authors": [
-        "",
-        ""
+        "chris-cooling"
     ],
     "tags": [
-        "",
-        ""
+        "python"
     ],
-    "duration": 0,
+    "duration": 3,
     "prerequisites": [
-        "",
-        ""
+        "python-variables"
     ],
     "related": [
-        "",
-        ""
     ]
 }
